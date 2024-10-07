@@ -1,3 +1,9 @@
+import CreateExamsPage from "@/src/components/CreateExamsPage";
+
 export default function Home() {
-  return <div>Getting Started</div>;
+  return (
+    <>
+      <CreateExamsPage />
+    </>
+  );
 }
