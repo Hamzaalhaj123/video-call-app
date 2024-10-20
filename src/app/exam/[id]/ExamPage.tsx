@@ -10,6 +10,7 @@ import {
 } from "@stream-io/video-react-sdk";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 
 interface ExamPageProps {
   id: string;
